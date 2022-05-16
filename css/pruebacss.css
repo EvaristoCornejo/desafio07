@@ -1,4 +1,22 @@
 @charset "UTF-8";
+.titulo-inicio {
+  color: #f34946; }
+
+.titulo-deportes {
+  color: #ef16aa; }
+
+.titulo-sueño {
+  color: #0872bd; }
+
+.titulo-alimentacion {
+  color: #5c21f3; }
+
+.titulo-suplemento {
+  color: #d91470; }
+
+.ac-1, .ac-2, .ac-3, .ac-4 {
+  font-size: 20px; }
+
 .inicio-pag .titulo-inicio {
   font-size: 50px;
   position: relative;
@@ -13,6 +31,10 @@
 .inicio-pag .intro {
   position: relative;
   left: 20px; }
+
+.acciones {
+  position: relative;
+  left: 220px; }
 
 .pag-deportes .titulo-deportes {
   position: relative;
@@ -35,7 +57,7 @@
 .pag-deportes .img-adul {
   width: 500px; }
 
-.pag-alimentacion .alimentacion {
+.pag-alimentacion .titulo-alimentacion {
   font-size: 50px;
   position: relative;
   left: 330px; }
@@ -97,9 +119,9 @@
   width: 400px; }
 
 body {
-  background-color: wheat; }
+  background-color: #f6d9a3; }
 
-.pag-suplementos .suplemento-tit {
+.pag-suplementos .titulo-suplemento {
   font-size: 40px;
   position: relative;
   left: 250px; }

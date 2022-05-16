@@ -1,9 +1,30 @@
 $ancho:330px;
 
+$titulos:(
+inicio:rgb(243, 73, 70),
+deportes :rgb(239, 22, 170),
+sueño:rgb(8, 114, 189),
+alimentacion: rgb(92, 33, 243),
+suplemento:rgb(217, 20, 112),
+);
+@each $tit, $color in $titulos {
+    .titulo-#{$tit}{
+        color:$color;
+    }
+}
+
+.ac-1{font-size: 20px;}
+.ac-2,.ac-3,.ac-4{
+    @extend .ac-1;}
+
+
 .inicio-pag{
 .titulo-inicio{font-size: 50px; position: relative;left: 250px;}
 .img1{width: 1100px; height:500px; position: relative;left: 50px;}
 .intro{position: relative;left: 20px;}}
+.acciones{position: relative;left: 220px; 
+
+}
 
 .pag-deportes{
 .titulo-deportes{position: relative;left: 180px; font-size: 50px;}
@@ -13,7 +34,7 @@ $ancho:330px;
 .img-adul{width: 500px;}}
 
 .pag-alimentacion{
-.alimentacion{font-size: 50px; position: relative; left: 330px;}
+.titulo-alimentacion{font-size: 50px; position: relative; left: 330px;}
 .img-ali{width: 1050px;height: 500px; position: relative;left: 85px;}
 .porque-impor{position: relative;left: 260px;}
 .info-ali{position: relative;left: 30px;}
@@ -31,10 +52,10 @@ $ancho:330px;
 .img-sueño-depo{width: 300px;}
 .img-sueño-niños{width: 400px;}}
 
-body{background-color: wheat;}
+body{background-color: rgb(246, 217, 163);}
 
 .pag-suplementos{
-.suplemento-tit{font-size: 40px; position: relative;left: 250px;}
+.titulo-suplemento{font-size: 40px; position: relative;left: 250px;}
 .intro-suplementos{width: 1050px; height: 550px; position: relative;left: 100px;}
 .cuando-supl{position: relative;left: 200px;}
 .div1,.div2,.div3{width: $ancho;height: 330px;}
@@ -47,100 +68,100 @@ body{background-color: wheat;}
 
 @media screen and (max-width:520px) and (min-width:320px){ 
     .inicio-pag{
-    .img1{width:250px;height: 200px; position: relative;right: 20px;}
-    .titulo-inicio{font-size: 20px;position: relative;left: 30px;}
-    .intro{position: relative; left: 20px;}}
+    .img1{width:240px;height: 180px; position: relative;right: 20px;}
+    .titulo-inicio{font-size: 19px;position: relative;left: 30px;}
+    .intro{position: relative; left: 19px;}}
 
 .pag-deportes{
-.deportes{width: 300px; position: relative;left: 12px;}
-.titulo-deportes{font-size: 16px; position: relative; left: 20px;}
-.img-niños{width: 300px;}
-.niños{position: relative; left: 32px;}
-.info-niños{position: relative;left: 15px;}
-.img-adol{width: 300px;}
-.titulo-adol{font-size: 20px; position: relative; left: 11px;}
-.info-adol{position: relative; left: 5px;}
-.img-adul{width: 300px;}
-.titulo-adul{position: relative; left: 14px;}
-.info-adul{position: relative; left: 7px;}}
+.deportes{width: 301px; position: relative;left: 11px;}
+.titulo-deportes{font-size: 17px; position: relative; left: 19px;}
+.img-niños{width: 299px;}
+.niños{position: relative; left: 31px;}
+.info-niños{position: relative;left: 14px;}
+.img-adol{width: 299px;}
+.titulo-adol{font-size: 19px; position: relative; left: 10px;}
+.info-adol{position: relative; left: 6px;}
+.img-adul{width: 301px;}
+.titulo-adul{position: relative; left: 13px;}
+.info-adul{position: relative; left: 8px;}}
 .pag-alimentacion{
-.alimentacion{font-size: 30px; position: relative; left: 32px;}
-.img-ali{width: 310px; height: 200px; position: relative;left: 5px;}
-.info-ali{position: relative; left: 8px;}
-.porque{position: relative; right:40px;}
-.piramide{width: 300px; position: relative; left: 5px;}
-.piramide-titulo{font-size: 13px; position: relative;left: 20px;}
-.explicacion{font-size: 30px; position: relative; left: 28px;}}
+.alimentacion{font-size: 29px; position: relative; left: 31px;}
+.img-ali{width: 311px; height: 201px; position: relative;left: 6px;}
+.info-ali{position: relative; left: 7px;}
+.porque{position: relative; right:39px;}
+.piramide{width: 301px; position: relative; left: 6px;}
+.piramide-titulo{font-size: 14px; position: relative;left: 21px;}
+.explicacion{font-size: 31px; position: relative; left: 27px;}}
 
 }
 
 @media screen and (max-width:520px) and (min-width:375px){
    
    .inicio-pag{
-    .img1{width:320px;height: 200px; position: relative;left: 25px;}
-    .titulo-inicio{font-size: 20px;position: relative;left: 50px;}
-    .intro{position: relative; left: 20px;}}
+    .img1{width:321px;height: 201px; position: relative;left: 24px;}
+    .titulo-inicio{font-size: 19px;position: relative;left: 49px;}
+    .intro{position: relative; left: 21px;}}
 
 .pag-deportes{
-.deportes{width: 330px; position: relative;left: 18px;}
-.titulo-deportes{font-size: 16px; position: relative; left: 42px;}
-.img-niños{width: 330px;position: relative;left: 10px;}
-.niños{position: relative; left: 48px;}
-.info-niños{position: relative;left: 15px;}
-.img-adol{width: 350px;}
-.titulo-adol{font-size: 20px; position: relative; left: 28px;}
-.info-adol{position: relative; left: 10px;}
-.img-adul{width: 330px; position: relative;left: 8px;}
-.titulo-adul{position: relative; left: 35px;}
-.info-adul{position: relative; left: 15px;}}
+.deportes{width: 331px; position: relative;left: 19px;}
+.titulo-deportes{font-size: 17px; position: relative; left: 43px;}
+.img-niños{width: 331px;position: relative;left: 11px;}
+.niños{position: relative; left: 49px;}
+.info-niños{position: relative;left: 16px;}
+.img-adol{width: 351px;}
+.titulo-adol{font-size: 21px; position: relative; left: 26px;}
+.info-adol{position: relative; left: 11px;}
+.img-adul{width: 331px; position: relative;left: 9px;}
+.titulo-adul{position: relative; left: 36px;}
+.info-adul{position: relative; left: 16px;}}
 .pag-alimentacion{
-.alimentacion{position: relative; left: 63px;}
-.img-ali{width: 330px; position: relative;left: 23px;}
-.info-ali{position: relative; left: 8px;}
-.porque-impor{position: relative; left: 45px;}
-.piramide{width: 310px; position: relative; left: 14px;}
-.piramide-titulo{font-size: 17px; position: relative;left: 10px;}
-.explicacion{position: relative; left: 70px;}
-.explicacion-p{position: relative;left: 5px;}}
+.alimentacion{position: relative; left: 64px;}
+.img-ali{width: 331px; position: relative;left: 24px;}
+.info-ali{position: relative; left: 9px;}
+.porque-impor{position: relative; left: 46px;}
+.piramide{width: 311px; position: relative; left: 15px;}
+.piramide-titulo{font-size: 18px; position: relative;left: 11px;}
+.explicacion{position: relative; left: 71px;}
+.explicacion-p{position: relative;left: 6px;}}
 
 .contenedor-1{display: flex; justify-content: space-around;}
 }
 @media screen and (max-width:520px) and (min-width:425px){
    
    .inicio-pag{
-    .img1{width:380px;height: 200px; position: relative;left: 25px;}
+    .img1{width:381px;height: 201px; position: relative;left: 24px;}
     .titulo-inicio{font-size: 25px;position: relative;left: 53px;}
-    .intro{position: relative; left: 20px;}}
+    .intro{position: relative; left: 19px;}}
 
     .pag-deportes{
-.deportes{width: 380px; position: relative;left: 30px;}
-.titulo-deportes{font-size: 20px; position: relative; left: 42px;}
-.img-niños{width: 380px;position: relative;left: 20px;}
+.deportes{width: 381px; position: relative;left: 31px;}
+.titulo-deportes{font-size: 21px; position: relative; left: 41px;}
+.img-niños{width: 381px;position: relative;left: 21px;}
 .niños{font-size: 32px; position: relative; left: 45px;}
-.info-niños{position: relative;left: 15px;}
-.img-adol{width: 380px; position: relative; left:8px ;}
-.titulo-adol{font-size: 26px; position: relative; left: 24px;}
-.info-adol{position: relative; left: 10px;}
-.img-adul{width: 380px; position: relative;left: 10px;}
-.titulo-adul{font-size: 30px; position: relative; left: 40px;}
-.info-adul{position: relative; left: 15px;}}
+.info-niños{position: relative;left: 16px;}
+.img-adol{width: 381px; position: relative; left:9px ;}
+.titulo-adol{font-size: 27px; position: relative; left: 25px;}
+.info-adol{position: relative; left: 11px;}
+.img-adul{width: 381px; position: relative;left: 11px;}
+.titulo-adul{font-size: 31px; position: relative; left: 41px;}
+.info-adul{position: relative; left: 14px;}}
  
 .pag-alimentacion{
-.alimentacion{position: relative; left: 80px;}
-.img-ali{width: 350px; position: relative;left: 35px;}
-.info-ali{position: relative; left: 8px;}
-.porque-impor{font-size: 20px; position: relative;right: 10px;}
-.piramide{width: 310px; position: relative; left: 32px;}
-.piramide-titulo{font-size: 17px; position: relative;left: 18px;}
-.explicacion{position: relative; left: 70px; font-size: 28px;}
-.explicacion-p{position: relative;left: 5px;} }
+.alimentacion{position: relative; left: 79px;}
+.img-ali{width: 350px; position: relative;left: 34px;}
+.info-ali{position: relative; left: 9px;}
+.porque-impor{font-size: 21px; position: relative;right: 11px;}
+.piramide{width: 311px; position: relative; left: 33px;}
+.piramide-titulo{font-size: 17px; position: relative;left: 17px;}
+.explicacion{position: relative; left: 71px; font-size: 29px;}
+.explicacion-p{position: relative;left: 6px;} }
 }
 
 @media screen and (max-width:768px) and (min-width:520px){
     .inicio-pag{
-    .img1{width:680px;height: 400px; position: relative;left: 25px;}
-    .titulo-inicio{font-size: 50px;position: relative;left: 50px;}
-    .intro{position: relative; left: 20px;}}
+    .img1{width:681px;height: 401px; position: relative;left: 24px;}
+    .titulo-inicio{font-size: 51px;position: relative;left: 51px;}
+    .intro{position: relative; left: 21px;}}
 
     .pag-deportes{
 .deportes{width: 700px; position: relative;left: 18px;}
