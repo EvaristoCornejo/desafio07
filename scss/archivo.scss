@@ -23,7 +23,6 @@ suplemento:rgb(217, 20, 112),
 .img1{width: 1100px; height:500px; position: relative;left: 50px;}
 .intro{position: relative;left: 20px;}}
 .acciones{position: relative;left: 220px; 
-
 }
 
 .pag-deportes{
@@ -46,7 +45,7 @@ suplemento:rgb(217, 20, 112),
 }
 .pag-sueño{
 .sueño{position: relative;left: 180px;}
-.titulo-sueño{width: 900px; position: relative; left: 90px;}
+.titulo-sueño{width: 1000px; position: relative; left: 90px;}
 .info-sueño{position: relative;left: 5px;}
 .img-salud-sueño{width: 500px;}
 .img-sueño-depo{width: 300px;}
@@ -70,8 +69,9 @@ body{background-color: rgb(246, 217, 163);}
     .inicio-pag{
     .img1{width:240px;height: 180px; position: relative;right: 20px;}
     .titulo-inicio{font-size: 19px;position: relative;left: 30px;}
-    .intro{position: relative; left: 19px;}}
-
+    .intro{position: relative; left: 19px;}
+    .acciones{position: relative;left: 20px;} }
+    
 .pag-deportes{
 .deportes{width: 301px; position: relative;left: 11px;}
 .titulo-deportes{font-size: 17px; position: relative; left: 19px;}
@@ -84,16 +84,37 @@ body{background-color: rgb(246, 217, 163);}
 .img-adul{width: 301px;}
 .titulo-adul{position: relative; left: 13px;}
 .info-adul{position: relative; left: 8px;}}
+
 .pag-alimentacion{
-.alimentacion{font-size: 29px; position: relative; left: 31px;}
+
+.titulo-alimentacion{font-size: 29px; position: relative; left: 31px;}
 .img-ali{width: 311px; height: 201px; position: relative;left: 6px;}
 .info-ali{position: relative; left: 7px;}
-.porque{position: relative; right:39px;}
+.alimentarse-bien{position: relative; left: 8px;}
 .piramide{width: 301px; position: relative; left: 6px;}
 .piramide-titulo{font-size: 14px; position: relative;left: 21px;}
 .explicacion{font-size: 31px; position: relative; left: 27px;}}
-
 }
+
+.pag-sueño{
+    .sueño{position: relative;left: 30px; font-size: 18px;}
+    .titulo-sueño{width: 300px; position: relative; left: 20px;}
+    .info-sueño{position: relative;left: 5px;}
+    .img-salud-sueño{width: 280px;}
+    .img-sueño-depo{width: 300px;}
+    .img-sueño-niños{width: 280px;}}
+
+    .pag-suplementos{
+        .titulo-suplemento{font-size: 18px; position: relative;left: 25px;}
+        .intro-suplementos{width: 325px; height: 250px; position: relative;left: 20px;}
+        .cuando-supl{position: relative;left: 10px;}
+        .div1,.div2,.div3{width: 80px ;height: 50px;}
+        .sup-si{position: relative;left: 30px;}
+        .anabolicos{width: 300px;position: relative;left: 30px;}
+        .sup-no,.info-anabol-1, .ana-boli{position: relative; left: 30px;}}
+        
+        
+        
 
 @media screen and (max-width:520px) and (min-width:375px){
    
@@ -114,6 +135,7 @@ body{background-color: rgb(246, 217, 163);}
 .img-adul{width: 331px; position: relative;left: 9px;}
 .titulo-adul{position: relative; left: 36px;}
 .info-adul{position: relative; left: 16px;}}
+
 .pag-alimentacion{
 .alimentacion{position: relative; left: 64px;}
 .img-ali{width: 331px; position: relative;left: 24px;}
@@ -147,22 +169,30 @@ body{background-color: rgb(246, 217, 163);}
 .info-adul{position: relative; left: 14px;}}
  
 .pag-alimentacion{
-.alimentacion{position: relative; left: 79px;}
+.titulo-alimentacion{position: relative; left: 79px;}
 .img-ali{width: 350px; position: relative;left: 34px;}
 .info-ali{position: relative; left: 9px;}
-.porque-impor{font-size: 21px; position: relative;right: 11px;}
+.alimentarse-bien{font-size: 21px; position: relative;right: 11px;}
 .piramide{width: 311px; position: relative; left: 33px;}
 .piramide-titulo{font-size: 17px; position: relative;left: 17px;}
 .explicacion{position: relative; left: 71px; font-size: 29px;}
 .explicacion-p{position: relative;left: 6px;} }
-}
 
-@media screen and (max-width:768px) and (min-width:520px){
+.pag-sueño{
+    .sueño{position: relative;left: 30px; font-size: 25px;}
+    .titulo-sueño{width: 380px; position: relative; left: 20px;}
+    .info-sueño{position: relative;left: 5px;}
+    .img-salud-sueño{width: 280px;}
+    .img-sueño-depo{width: 300px;}
+    .img-sueño-niños{width: 280px;}} }
+
+@media screen and (max-width:768px) and (min-width:520px) {
     .inicio-pag{
     .img1{width:681px;height: 401px; position: relative;left: 24px;}
     .titulo-inicio{font-size: 51px;position: relative;left: 51px;}
-    .intro{position: relative; left: 21px;}}
-
+    .intro{position: relative; left: 21px;}
+    .acciones{position: relative;left: 20px; }
+    }
     .pag-deportes{
 .deportes{width: 700px; position: relative;left: 18px;}
 .titulo-deportes{font-size: 38px; position: relative; left: 46px;}
@@ -177,12 +207,30 @@ body{background-color: rgb(246, 217, 163);}
 .info-adul{position: relative; left: 15px;}}
 
 .pag-alimentacion{
-.alimentacion{font-size: 50px; position: relative; left:145px ;}
-.img-ali{width: 600px; position: relative;left: 70px;}
+.titulo-alimentacion{font-size: 50px; position: relative; left:145px ;}
+.img-ali{width: 700px; position: relative;left: 70px;}
 .info-ali{position: relative; left: 8px;}
-.porque-impor{position: relative; left: 55px;}
+.alimentarse-bien{position: relative; left: 55px;}
 .piramide{width: 500px; position: relative; left: 100px;}
 .piramide-titulo{font-size: 33px; position: relative;left: 20px;}
 .explicacion{font-size: 38px; position: relative; left: 180px;}
 .explicacion-p{position: relative;left: 5px;}}
-}
+
+.pag-sueño{
+    .sueño{position: relative;left: 40px; font-size: 35px;}
+    .titulo-sueño{width: 600px; position: relative; left: 50px;}
+    .info-sueño{position: relative;left: 5px;}
+    .img-salud-sueño{width: 280px;}
+    .img-sueño-depo{width: 300px;}
+    .img-sueño-niños{width: 280px;}}
+   
+    .pag-suplementos{
+        .titulo-suplemento{font-size: 40px; position: relative;left: 80px;}
+        .intro-suplementos{width: 650px; height: 400px; position: relative;left: 70px;}
+        .cuando-supl{position: relative;left: 80px;}
+        .div1,.div2,.div3{width: 250px;height: 300px;}
+        .sup-si{position: relative;left: 180px;}
+        .anabolicos{width: 400px;position: relative;left: 30px;}
+        .sup-no,.info-anabol-1, .ana-boli{position: relative; left: 30px;}
+        .contenedor-1{display: flex; justify-content: space-around;}} }
+    
