@@ -18,33 +18,64 @@
   font-size: 20px; }
 
 .inicio-pag .titulo-inicio {
-  font-size: 50px;
-  position: relative;
-  left: 250px; }
+  font-size: 50px; }
+
+.inicio-pag .center1 {
+  text-align: center; }
 
 .inicio-pag .img1 {
   width: 1100px;
-  height: 500px;
-  position: relative;
-  left: 50px; }
+  height: 500px; }
+
+.inicio-pag .center2 {
+  text-align: center; }
 
 .inicio-pag .intro {
   position: relative;
   left: 20px; }
 
-.acciones {
+.inicio-pag .center3 {
+  text-align: center; }
+
+.instagram, .facebook, .twitter {
+  width: 50px;
+  height: 50px;
   position: relative;
-  left: 220px; }
+  top: 10px; }
+
+.redes {
+  display: flex;
+  justify-content: space-around; }
+
+footer {
+  background-color: #54d6f3;
+  height: 100%; }
+
+.vs, .vs2, .vs3 {
+  position: relative;
+  right: 110px;
+  top: 25px; }
+
+.cookies {
+  position: relative;
+  left: 1100px;
+  bottom: 10px; }
+
+.tyc {
+  position: relative;
+  bottom: 10px; }
 
 .pag-deportes .titulo-deportes {
-  position: relative;
-  left: 180px;
   font-size: 50px; }
 
+.pag-deportes .center4 {
+  text-align: center; }
+
 .pag-deportes .deportes {
-  width: 1050px;
-  position: relative;
-  left: 90px; }
+  width: 1050px; }
+
+.pag-deportes .center5 {
+  text-align: center; }
 
 .pag-deportes .img-niños {
   width: 550px;
@@ -58,314 +89,225 @@
   width: 500px; }
 
 .pag-alimentacion .titulo-alimentacion {
-  font-size: 50px;
-  position: relative;
-  left: 330px; }
+  font-size: 50px; }
+
+.pag-alimentacion .center6 {
+  text-align: center; }
 
 .pag-alimentacion .img-ali {
   width: 1050px;
-  height: 500px;
-  position: relative;
-  left: 85px; }
+  height: 500px; }
 
-.pag-alimentacion .porque-impor {
-  position: relative;
-  left: 260px; }
+.pag-alimentacion .center7 {
+  text-align: center; }
+
+.pag-alimentacion .center8 {
+  text-align: center; }
 
 .pag-alimentacion .info-ali {
   position: relative;
   left: 30px; }
 
 .pag-alimentacion .piramide-titulo {
-  font-size: 50px;
-  position: relative;
-  left: 80px; }
+  font-size: 50px; }
+
+.pag-alimentacion .center9 {
+  text-align: center; }
 
 .pag-alimentacion .piramide {
-  width: 800px;
-  position: relative;
-  left: 190px; }
+  width: 800px; }
+
+.pag-alimentacion .center10 {
+  text-align: center; }
 
 .pag-alimentacion .explicacion {
-  font-size: 38px;
-  position: relative;
-  left: 400px; }
+  font-size: 38px; }
+
+.pag-alimentacion .center11 {
+  text-align: center; }
 
 .pag-alimentacion .explicacion-p {
   font-size: 17px;
   position: relative;
   left: 20px; }
 
-.pag-sueño .sueño {
-  position: relative;
-  left: 180px; }
+.caja-r1 {
+  display: flex;
+  justify-content: space-around; }
+
+.caja-r2 {
+  display: flex;
+  justify-content: space-around; }
+
+.receta1, .receta2, .receta3, .receta4 {
+  width: 400px;
+  height: 400px;
+  border: solid; }
+
+.recetas {
+  text-align: center; }
 
 .pag-sueño .titulo-sueño {
-  width: 1000px;
-  position: relative;
-  left: 90px; }
+  width: 1000px; }
 
-.pag-sueño .info-sueño {
-  position: relative;
-  left: 5px; }
+.pag-sueño .center12 {
+  text-align: center; }
+
+.pag-sueño .center13 {
+  text-align: center; }
+
+.pag-sueño .center14 {
+  text-align: center; }
 
 .pag-sueño .img-salud-sueño {
-  width: 500px; }
+  width: 300px; }
 
 .pag-sueño .img-sueño-depo {
   width: 300px; }
 
 .pag-sueño .img-sueño-niños {
-  width: 400px; }
+  width: 300px; }
 
 body {
   background-color: #f6d9a3; }
 
 .pag-suplementos .titulo-suplemento {
-  font-size: 40px;
-  position: relative;
-  left: 250px; }
+  font-size: 40px; }
+
+.pag-suplementos .center15, .pag-suplementos .center16, .pag-suplementos .center17, .pag-suplementos .center18, .pag-suplementos .center19, .pag-suplementos .center20, .pag-suplementos .center21 {
+  text-align: center; }
 
 .pag-suplementos .intro-suplementos {
   width: 1050px;
-  height: 550px;
-  position: relative;
-  left: 100px; }
-
-.pag-suplementos .cuando-supl {
-  position: relative;
-  left: 200px; }
+  height: 550px; }
 
 .pag-suplementos .div1, .pag-suplementos .div2, .pag-suplementos .div3 {
   width: 330px;
-  height: 330px; }
-
-.pag-suplementos .sup-si {
-  position: relative;
-  left: 310px; }
+  height: 330px;
+  border: solid; }
 
 .pag-suplementos .anabolicos {
-  width: 400px;
-  position: relative;
-  left: 30px; }
+  width: 400px; }
 
 .pag-suplementos .sup-no, .pag-suplementos .info-anabol-1, .pag-suplementos .ana-boli {
   position: relative;
-  left: 30px; }
+  left: 10px; }
 
 .pag-suplementos .contenedor-1 {
   display: flex;
   justify-content: space-around; }
 
+.pag-suplementos .center22 {
+  text-align: center; }
+
 @media screen and (max-width: 520px) and (min-width: 320px) {
   .inicio-pag .img1 {
     width: 240px;
-    height: 180px;
-    position: relative;
-    right: 20px; }
+    height: 180px; }
   .inicio-pag .titulo-inicio {
-    font-size: 19px;
-    position: relative;
-    left: 30px; }
-  .inicio-pag .intro {
-    position: relative;
-    left: 19px; }
-  .inicio-pag .acciones {
-    position: relative;
-    left: 20px; }
+    font-size: 19px; }
   .pag-deportes .deportes {
-    width: 301px;
-    position: relative;
-    left: 11px; }
+    width: 301px; }
   .pag-deportes .titulo-deportes {
-    font-size: 17px;
-    position: relative;
-    left: 19px; }
+    font-size: 19px; }
   .pag-deportes .img-niños {
-    width: 299px; }
-  .pag-deportes .niños {
-    position: relative;
-    left: 31px; }
-  .pag-deportes .info-niños {
-    position: relative;
-    left: 14px; }
+    width: 299px;
+    height: 299px; }
   .pag-deportes .img-adol {
-    width: 299px; }
+    width: 299px;
+    height: 299px; }
   .pag-deportes .titulo-adol {
-    font-size: 19px;
-    position: relative;
-    left: 10px; }
-  .pag-deportes .info-adol {
-    position: relative;
-    left: 6px; }
+    font-size: 19px; }
   .pag-deportes .img-adul {
     width: 301px; }
-  .pag-deportes .titulo-adul {
-    position: relative;
-    left: 13px; }
-  .pag-deportes .info-adul {
-    position: relative;
-    left: 8px; }
+  .niños {
+    font-size: 19px; }
+  .titulo-adu {
+    font-size: 19px; }
   .pag-alimentacion .titulo-alimentacion {
-    font-size: 29px;
-    position: relative;
-    left: 31px; }
+    font-size: 19px; }
   .pag-alimentacion .img-ali {
     width: 311px;
-    height: 201px;
-    position: relative;
-    left: 6px; }
-  .pag-alimentacion .info-ali {
-    position: relative;
-    left: 7px; }
-  .pag-alimentacion .alimentarse-bien {
-    position: relative;
-    left: 8px; }
+    height: 201px; }
   .pag-alimentacion .piramide {
-    width: 301px;
-    position: relative;
-    left: 6px; }
+    width: 301px; }
   .pag-alimentacion .piramide-titulo {
-    font-size: 14px;
-    position: relative;
-    left: 21px; }
+    font-size: 19px; }
   .pag-alimentacion .explicacion {
-    font-size: 31px;
+    font-size: 19px; }
+  .caja-r1 {
+    display: inline-block; }
+  .caja-r2 {
+    display: inline-block; }
+  .receta1 {
+    width: 260px;
+    height: 260px;
+    border: solid; }
+  .receta2 {
+    width: 260px;
+    height: 260px;
+    border: solid;
     position: relative;
-    left: 27px; } }
-
-.pag-sueño .sueño {
-  position: relative;
-  left: 30px;
-  font-size: 18px; }
-
-.pag-sueño .titulo-sueño {
-  width: 300px;
-  position: relative;
-  left: 20px; }
-
-.pag-sueño .info-sueño {
-  position: relative;
-  left: 5px; }
-
-.pag-sueño .img-salud-sueño {
-  width: 280px; }
-
-.pag-sueño .img-sueño-depo {
-  width: 300px; }
-
-.pag-sueño .img-sueño-niños {
-  width: 280px; }
-
-.pag-suplementos .titulo-suplemento {
-  font-size: 18px;
-  position: relative;
-  left: 25px; }
-
-.pag-suplementos .intro-suplementos {
-  width: 325px;
-  height: 250px;
-  position: relative;
-  left: 20px; }
-
-.pag-suplementos .cuando-supl {
-  position: relative;
-  left: 10px; }
-
-.pag-suplementos .div1, .pag-suplementos .div2, .pag-suplementos .div3 {
-  width: 80px;
-  height: 50px; }
-
-.pag-suplementos .sup-si {
-  position: relative;
-  left: 30px; }
-
-.pag-suplementos .anabolicos {
-  width: 300px;
-  position: relative;
-  left: 30px; }
-
-.pag-suplementos .sup-no, .pag-suplementos .info-anabol-1, .pag-suplementos .ana-boli {
-  position: relative;
-  left: 30px; }
+    top: 20px; }
+  .receta3 {
+    width: 260px;
+    height: 260px;
+    border: solid;
+    position: relative;
+    top: 20px; }
+  .receta4 {
+    width: 260px;
+    height: 260px;
+    border: solid;
+    position: relative;
+    top: 35px; }
+  .recetas {
+    text-align: center; }
+  .pag-sueño .sueño {
+    font-size: 19px; }
+  .pag-sueño .titulo-sueño {
+    width: 300px; }
+  .pag-sueño .img-salud-sueño {
+    width: 280px; }
+  .pag-sueño .img-sueño-depo {
+    width: 300px; }
+  .pag-sueño .img-sueño-niños {
+    width: 280px; }
+  .pag-suplementos .titulo-suplemento {
+    font-size: 19px; }
+  .pag-suplementos .intro-suplementos {
+    width: 325px;
+    height: 250px; }
+  .pag-suplementos .div1, .pag-suplementos .div2, .pag-suplementos .div3 {
+    width: 80px;
+    height: 50px; }
+  .pag-suplementos .anabolicos {
+    width: 300px; } }
 
 @media screen and (max-width: 520px) and (min-width: 375px) {
   .inicio-pag .img1 {
     width: 321px;
-    height: 201px;
-    position: relative;
-    left: 24px; }
+    height: 201px; }
   .inicio-pag .titulo-inicio {
-    font-size: 19px;
-    position: relative;
-    left: 49px; }
-  .inicio-pag .intro {
-    position: relative;
-    left: 21px; }
+    font-size: 22px; }
   .pag-deportes .deportes {
-    width: 331px;
-    position: relative;
-    left: 19px; }
+    width: 331px; }
   .pag-deportes .titulo-deportes {
-    font-size: 17px;
-    position: relative;
-    left: 43px; }
+    font-size: 22px; }
   .pag-deportes .img-niños {
-    width: 331px;
-    position: relative;
-    left: 11px; }
-  .pag-deportes .niños {
-    position: relative;
-    left: 49px; }
-  .pag-deportes .info-niños {
-    position: relative;
-    left: 16px; }
+    width: 331px; }
   .pag-deportes .img-adol {
-    width: 351px; }
+    width: 331px; }
   .pag-deportes .titulo-adol {
-    font-size: 21px;
-    position: relative;
-    left: 26px; }
-  .pag-deportes .info-adol {
-    position: relative;
-    left: 11px; }
+    font-size: 22px; }
   .pag-deportes .img-adul {
-    width: 331px;
-    position: relative;
-    left: 9px; }
-  .pag-deportes .titulo-adul {
-    position: relative;
-    left: 36px; }
-  .pag-deportes .info-adul {
-    position: relative;
-    left: 16px; }
-  .pag-alimentacion .alimentacion {
-    position: relative;
-    left: 64px; }
+    width: 331px; }
   .pag-alimentacion .img-ali {
-    width: 331px;
-    position: relative;
-    left: 24px; }
-  .pag-alimentacion .info-ali {
-    position: relative;
-    left: 9px; }
-  .pag-alimentacion .porque-impor {
-    position: relative;
-    left: 46px; }
+    width: 331px; }
   .pag-alimentacion .piramide {
-    width: 311px;
-    position: relative;
-    left: 15px; }
+    width: 311px; }
   .pag-alimentacion .piramide-titulo {
-    font-size: 18px;
-    position: relative;
-    left: 11px; }
-  .pag-alimentacion .explicacion {
-    position: relative;
-    left: 71px; }
-  .pag-alimentacion .explicacion-p {
-    position: relative;
-    left: 6px; }
+    font-size: 22px; }
   .contenedor-1 {
     display: flex;
     justify-content: space-around; } }
@@ -373,97 +315,39 @@ body {
 @media screen and (max-width: 520px) and (min-width: 425px) {
   .inicio-pag .img1 {
     width: 381px;
-    height: 201px;
-    position: relative;
-    left: 24px; }
+    height: 201px; }
   .inicio-pag .titulo-inicio {
-    font-size: 25px;
-    position: relative;
-    left: 53px; }
-  .inicio-pag .intro {
-    position: relative;
-    left: 19px; }
+    font-size: 23px; }
   .pag-deportes .deportes {
-    width: 381px;
-    position: relative;
-    left: 31px; }
+    width: 381px; }
   .pag-deportes .titulo-deportes {
-    font-size: 21px;
-    position: relative;
-    left: 41px; }
+    font-size: 23px; }
   .pag-deportes .img-niños {
-    width: 381px;
-    position: relative;
-    left: 21px; }
+    width: 381px; }
   .pag-deportes .niños {
-    font-size: 32px;
-    position: relative;
-    left: 45px; }
-  .pag-deportes .info-niños {
-    position: relative;
-    left: 16px; }
+    font-size: 20px; }
   .pag-deportes .img-adol {
-    width: 381px;
-    position: relative;
-    left: 9px; }
+    width: 381px; }
   .pag-deportes .titulo-adol {
-    font-size: 27px;
-    position: relative;
-    left: 25px; }
-  .pag-deportes .info-adol {
-    position: relative;
-    left: 11px; }
+    font-size: 23px; }
   .pag-deportes .img-adul {
-    width: 381px;
-    position: relative;
-    left: 11px; }
+    width: 381px; }
   .pag-deportes .titulo-adul {
-    font-size: 31px;
-    position: relative;
-    left: 41px; }
-  .pag-deportes .info-adul {
-    position: relative;
-    left: 14px; }
-  .pag-alimentacion .titulo-alimentacion {
-    position: relative;
-    left: 79px; }
+    font-size: 23px; }
   .pag-alimentacion .img-ali {
-    width: 350px;
-    position: relative;
-    left: 34px; }
-  .pag-alimentacion .info-ali {
-    position: relative;
-    left: 9px; }
+    width: 350px; }
   .pag-alimentacion .alimentarse-bien {
-    font-size: 21px;
-    position: relative;
-    right: 11px; }
+    font-size: 23px; }
   .pag-alimentacion .piramide {
-    width: 311px;
-    position: relative;
-    left: 33px; }
+    width: 311px; }
   .pag-alimentacion .piramide-titulo {
-    font-size: 17px;
-    position: relative;
-    left: 17px; }
+    font-size: 23px; }
   .pag-alimentacion .explicacion {
-    position: relative;
-    left: 71px;
-    font-size: 29px; }
-  .pag-alimentacion .explicacion-p {
-    position: relative;
-    left: 6px; }
+    font-size: 20px; }
   .pag-sueño .sueño {
-    position: relative;
-    left: 30px;
-    font-size: 25px; }
+    font-size: 23px; }
   .pag-sueño .titulo-sueño {
-    width: 380px;
-    position: relative;
-    left: 20px; }
-  .pag-sueño .info-sueño {
-    position: relative;
-    left: 5px; }
+    width: 380px; }
   .pag-sueño .img-salud-sueño {
     width: 280px; }
   .pag-sueño .img-sueño-depo {
@@ -473,99 +357,37 @@ body {
 
 @media screen and (max-width: 768px) and (min-width: 520px) {
   .inicio-pag .img1 {
-    width: 681px;
-    height: 401px;
-    position: relative;
-    left: 24px; }
+    width: 681px; }
   .inicio-pag .titulo-inicio {
-    font-size: 51px;
-    position: relative;
-    left: 51px; }
-  .inicio-pag .intro {
-    position: relative;
-    left: 21px; }
-  .inicio-pag .acciones {
-    position: relative;
-    left: 20px; }
+    font-size: 51px; }
   .pag-deportes .deportes {
-    width: 700px;
-    position: relative;
-    left: 18px; }
+    width: 700px; }
   .pag-deportes .titulo-deportes {
-    font-size: 38px;
-    position: relative;
-    left: 46px; }
+    font-size: 38px; }
   .pag-deportes .img-niños {
-    width: 330px;
-    position: relative;
-    left: 10px; }
-  .pag-deportes .niños {
-    position: relative;
-    left: 48px; }
-  .pag-deportes .info-niños {
-    position: relative;
-    left: 15px; }
+    width: 330px; }
   .pag-deportes .img-adol {
     width: 355px;
     height: 300px; }
   .pag-deportes .titulo-adol {
-    font-size: 20px;
-    position: relative;
-    left: 28px; }
-  .pag-deportes .info-adol {
-    position: relative;
-    left: 10px; }
+    font-size: 20px; }
   .pag-deportes .img-adul {
     width: 300px;
-    height: 300px;
-    position: relative;
-    left: 8px; }
-  .pag-deportes .titulo-adul {
-    position: relative;
-    left: 35px; }
-  .pag-deportes .info-adul {
-    position: relative;
-    left: 15px; }
+    height: 300px; }
   .pag-alimentacion .titulo-alimentacion {
-    font-size: 50px;
-    position: relative;
-    left: 145px; }
+    font-size: 50px; }
   .pag-alimentacion .img-ali {
-    width: 700px;
-    position: relative;
-    left: 70px; }
-  .pag-alimentacion .info-ali {
-    position: relative;
-    left: 8px; }
-  .pag-alimentacion .alimentarse-bien {
-    position: relative;
-    left: 55px; }
+    width: 700px; }
   .pag-alimentacion .piramide {
-    width: 500px;
-    position: relative;
-    left: 100px; }
+    width: 500px; }
   .pag-alimentacion .piramide-titulo {
-    font-size: 33px;
-    position: relative;
-    left: 20px; }
+    font-size: 33px; }
   .pag-alimentacion .explicacion {
-    font-size: 38px;
-    position: relative;
-    left: 180px; }
-  .pag-alimentacion .explicacion-p {
-    position: relative;
-    left: 5px; }
+    font-size: 38px; }
   .pag-sueño .sueño {
-    position: relative;
-    left: 40px;
     font-size: 35px; }
   .pag-sueño .titulo-sueño {
-    width: 600px;
-    position: relative;
-    left: 50px; }
-  .pag-sueño .info-sueño {
-    position: relative;
-    left: 5px; }
+    width: 600px; }
   .pag-sueño .img-salud-sueño {
     width: 280px; }
   .pag-sueño .img-sueño-depo {
@@ -573,30 +395,15 @@ body {
   .pag-sueño .img-sueño-niños {
     width: 280px; }
   .pag-suplementos .titulo-suplemento {
-    font-size: 40px;
-    position: relative;
-    left: 80px; }
+    font-size: 40px; }
   .pag-suplementos .intro-suplementos {
     width: 650px;
-    height: 400px;
-    position: relative;
-    left: 70px; }
-  .pag-suplementos .cuando-supl {
-    position: relative;
-    left: 80px; }
+    height: 400px; }
   .pag-suplementos .div1, .pag-suplementos .div2, .pag-suplementos .div3 {
     width: 250px;
     height: 300px; }
-  .pag-suplementos .sup-si {
-    position: relative;
-    left: 180px; }
   .pag-suplementos .anabolicos {
-    width: 400px;
-    position: relative;
-    left: 30px; }
-  .pag-suplementos .sup-no, .pag-suplementos .info-anabol-1, .pag-suplementos .ana-boli {
-    position: relative;
-    left: 30px; }
+    width: 400px; }
   .pag-suplementos .contenedor-1 {
     display: flex;
     justify-content: space-around; } }
