@@ -17,7 +17,6 @@ suplemento:rgb(217, 20, 112),
 .ac-2,.ac-3,.ac-4{
     @extend .ac-1;}
 
-
 .inicio-pag{
 .titulo-inicio{font-size: 50px;}
 .center1{text-align: center;}
@@ -25,9 +24,8 @@ suplemento:rgb(217, 20, 112),
 .center2{text-align: center;}
 .intro{position: relative;left: 20px;}
 .center3{text-align: center;}}
-.instagram,.facebook,.twitter {width: 50px; height: 50px;position: relative;top: 10px;}
-.redes{display: flex; justify-content: space-around;}
-footer{background-color: rgb(84, 214, 243); height: 100%;}
+.redes{display: flex; justify-content: space-around; position: relative; top: 10px;}
+footer{background-color: rgb(84, 184, 220); height: 100%;}
 .vs,.vs2,.vs3{position: relative; right: 110px;top: 25px;}
 .cookies{position: relative; left: 1100px; bottom: 10px;}
 .tyc{position: relative;bottom: 10px;}
@@ -40,6 +38,8 @@ footer{background-color: rgb(84, 214, 243); height: 100%;}
 .img-niños{width: 550px; height: 400px;}
 .img-adol{width: 520px;height: 350px;}
 .img-adul{width: 500px;}}
+.servicios{text-align: center;}
+.instagram,.twitter, .facebook{width: 50px; height: 50px;}
 
 .pag-alimentacion{
 .titulo-alimentacion{font-size: 50px;}
@@ -88,7 +88,8 @@ body{background-color: rgb(246, 217, 163);}
     .inicio-pag{
     .img1{width:240px;height: 180px;}
     .titulo-inicio{font-size: 19px;}} 
-    
+
+
 .pag-deportes{
 .deportes{width: 301px;}
 .titulo-deportes{font-size: 19px;}
